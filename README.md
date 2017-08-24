@@ -8,14 +8,16 @@ It should be stated that this script has only been tested on a fresh installatio
 
 ## How to use
 
-### Clone this repository
+#### Step 1: Clone this repository
 `git clone https://github.com/themattbook/ossninstaller.git`
 
-#### Change into the directory
+#### Step 2: Change into the directory
 `cd ossninstaller`
 
-#### Make installer script executable
+#### Step 3: Make installer script executable
 `chmod +x ./ossn_installer_ubuntu.sh`
 
-#### Install OSSN
+#### Step 4: Install OSSN
 `sudo ./ossn_installer_ubuntu.sh`
+
+You will be prompted for information a few times throughout the installation process.
