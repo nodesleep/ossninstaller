@@ -6,6 +6,8 @@ This script will install all of the required programs, services, and dependencie
 
 It should be stated that this script has only been tested on a fresh installation of Ubuntu 16.04, but will work on later versions as well. Do not use if you're running multiple Apache virtual hosts on the same server. This script will break it upon reconfiguring the 000-default.conf for OSSN.
 
+That being said, please use a fresh installation of Ubuntu 16.04 and higher before running.
+
 ## How to use
 
 #### Step 1: Clone this repository
