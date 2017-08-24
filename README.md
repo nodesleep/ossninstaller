@@ -5,11 +5,11 @@ An installer script for Open Source Social Network
 Clone this repository
 `git clone https://github.com/themattbook/ossninstaller.git`
 
-Change into the directory
+#### Change into the directory
 `cd ossninstaller`
 
-Make installer script executable
+#### Make installer script executable
 `chmod +x ./ossn_installer_ubuntu.sh`
 
-Install OSSN
+#### Install OSSN
 `sudo ./ossn_installer_ubuntu.sh`
