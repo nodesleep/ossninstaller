@@ -26,4 +26,4 @@ You will be prompted for information a few times throughout the installation pro
 Currently, only Ubuntu 16.04 is supported. I will eventually add additional Linux distros to the project. Each distro will have its own script file.
 
 ## Support
-While my time is limited and spent on other projects, feel free to report an issue if you encounter any bugs or quirks. Enjoy. 
+While my time is limited and spent on other projects, feel free to report an issue if you encounter any bugs or quirks that you feel aren't expected behavior. Rest assured, improvements will be made over time. For the meantime, this should get a lot of people up and running. Enjoy. 
