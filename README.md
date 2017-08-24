@@ -2,7 +2,8 @@
 An installer script for Open Source Social Network
 
 ### How to use
-Clone this repository
+
+#### Clone this repository
 `git clone https://github.com/themattbook/ossninstaller.git`
 
 #### Change into the directory
