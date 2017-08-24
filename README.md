@@ -23,3 +23,7 @@ It should be stated that this script has only been tested on a fresh installatio
 You will be prompted for information a few times throughout the installation process.
 
 ## Additional Information
+Currently, only Ubuntu 16.04 is supported. I will eventually add additional Linux distros to the project. Each distro will have its own script file.
+
+## Support
+While my time is limited and spent on other projects, feel free to report an issue if you encounter any bugs or quirks. Enjoy. 
