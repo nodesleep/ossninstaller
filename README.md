@@ -21,3 +21,5 @@ It should be stated that this script has only been tested on a fresh installatio
 `sudo ./ossn_installer_ubuntu.sh`
 
 You will be prompted for information a few times throughout the installation process.
+
+## Additional Information
