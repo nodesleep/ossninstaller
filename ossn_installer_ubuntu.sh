@@ -6,14 +6,18 @@
 # distributions.
 
 # Disclaimer
+clear
 echo ""
-echo "OSSN Installer by Matthew Sweet <themattbook@gmail.com>"
+echo -e "\e[1m\e[32mOSSN Installer by Matthew Sweet <themattbook@gmail.com>\e[0m"
 echo "https://github.com/themattbook/ossninstaller"
 echo ""
-echo "!!! WARNING !!!"
-echo "This script will overwrite Apache configuration files!"
-echo "If you already have a working server with other configurations"
-echo "in place, CTRL+C now to abort or press ENTER to continue."
+echo -e "\e[1m\e[31mWARNING:\e[0m THIS SCRIPT WILL OVERWRITE APACHE CONFIGURATION FILES"
+echo "AND WILL ONLY WORK ON A FRESH INSTALL OF UBUNTU 16.04 AND HIGHER."
+echo ""
+echo -e "\e[0mPlease view the \e[1mREADME.md\e[0m on GitHub before continuing. If you feel"
+echo "comfortable that all requirements have been met, please proceed."
+echo ""
+echo "CTRL+C now to abort or press ENTER to continue with the installation."
 read -s
 
 # Check system for updates and install required programs
@@ -25,6 +29,11 @@ sudo apt install apache2 -y
 sudo ufw allow in "Apache full"
 sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-curl php-zip -y
 sudo apt-get install mysql-server -y
+
+# Clear screen and update user
+clear
+echo "Starting MySQL Secure Installation..."
+echo ""
 
 # Set up mysql_secure_installation
 sudo mysql_secure_installation
