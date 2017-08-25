@@ -13,13 +13,10 @@ That being said, please use a fresh installation of Ubuntu 16.04 and higher befo
 #### Step 1: Download the Script
 `wget https://raw.githubusercontent.com/themattbook/ossninstaller/unstable/ossn_installer_ubuntu.sh`
 
-#### Step 2: Change into the directory
-`cd ossninstaller`
-
-#### Step 3: Make installer script executable
+#### Step 2: Make installer script executable
 `chmod +x ./ossn_installer_ubuntu.sh`
 
-#### Step 4: Install OSSN
+#### Step 3: Install OSSN
 `sudo ./ossn_installer_ubuntu.sh`
 
 You will be prompted for MySQL credentials a few times throughout the installation process. Upon completion, navigate your browser to the URL of IP of your server. You should be greeted with an Installation page for OSSN showing that all requirements are in blue, meaning they're satisfied and ready to proceed.
@@ -27,6 +24,7 @@ You will be prompted for MySQL credentials a few times throughout the installati
 ![OSSN Installed](https://github.com/themattbook/ossninstaller/raw/unstable/ossn_install.png)
 
 ## Additional Information
+#### Future Development
 Currently, only Ubuntu 16.04 is supported. I will eventually add additional Linux distros to the project. Each distro will have its own script file.
 
 #### MySQL setup
