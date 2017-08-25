@@ -4,6 +4,7 @@
 # This version intended for Ubuntu Server
 # 16.04+ and will not work on non-Ubuntu
 # distributions.
+# Feel free to modify this.
 
 # Disclaimer
 echo ""
