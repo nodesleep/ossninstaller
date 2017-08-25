@@ -4,9 +4,15 @@ An installer script for Open Source Social Network
 ## Introduction
 This script will install all of the required programs, services, and dependencies needed to run OSSN. I wrote this after reading so many people were struggling with the installation process, namely permissions and configuring Apache. This script serves as an easy install point to get anyone up and running.
 
-It should be stated that this script has only been tested on a fresh installation of Ubuntu 16.04, but will work on later versions as well. Do not use if you're running multiple Apache virtual hosts on the same server. This script will break it upon reconfiguring the 000-default.conf for OSSN.
+It should be stated that this script has only been tested on a fresh installation of Ubuntu 16.04, but will work on later versions as well. Do not use if you're running multiple Apache virtual hosts on the same server. This script will break it upon reconfiguring the 000-default.conf for OSSN in most cases. OSSN uses the default Apache configuration out of the box.
 
-That being said, please use a fresh installation of Ubuntu 16.04 and higher before running.
+That being said, please use a **fresh** installation of Ubuntu 16.04 and higher before running. I've found issues exist on servers where many of the components were installed, but removed. Walking users through a complete removal of every component is outside the scope of this install script.
+
+#### Requirements
+* Ubuntu Server 16.04 and higher
+* Access to server command line via ssh or direct
+* A user account with super-user (sudo) privileges
+* Basic knowledge of the Linux command line
 
 ## How to use
 
