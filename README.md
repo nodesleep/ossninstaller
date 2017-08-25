@@ -10,7 +10,7 @@ That being said, please use a fresh installation of Ubuntu 16.04 and higher befo
 
 ## How to use
 
-#### Step 1: Clone this repository
+#### Step 1: Download the Script
 `wget https://raw.githubusercontent.com/themattbook/ossninstaller/unstable/ossn_installer_ubuntu.sh`
 
 #### Step 2: Change into the directory
