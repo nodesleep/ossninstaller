@@ -24,7 +24,7 @@ That being said, please use a fresh installation of Ubuntu 16.04 and higher befo
 
 You will be prompted for MySQL credentials a few times throughout the installation process. Upon completion, navigate your browser to the URL of IP of your server. You should be greeted with an Installation page for OSSN showing that all requirements are in blue, meaning they're satisfied and ready to proceed.
 
-!(OSSN Installed)[https://github.com/themattbook/ossninstaller/raw/unstable/ossn_install.png]
+![OSSN Installed](https://github.com/themattbook/ossninstaller/raw/unstable/ossn_install.png)
 
 ## Additional Information
 Currently, only Ubuntu 16.04 is supported. I will eventually add additional Linux distros to the project. Each distro will have its own script file.
