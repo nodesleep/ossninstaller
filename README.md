@@ -27,5 +27,8 @@ You will be prompted for MySQL credentials a few times throughout the installati
 ## Additional Information
 Currently, only Ubuntu 16.04 is supported. I will eventually add additional Linux distros to the project. Each distro will have its own script file.
 
+#### MySQL setup
+As the script goes through the installation process, you will be prompted for MySQL credentials and input on how to configure `mysql_secure_installation` and phpmyadmin. For `mysql_secure_installation`, simply answer "N" to the first two prompts and "Y" for the remainder. For phpmyadmin, be sure to select "Apache" and for any other prompts, just press ENTER.
+
 ## Support
 While my time is limited and spent on other projects, feel free to report an issue if you encounter any bugs or quirks that you feel aren't expected behavior. Rest assured, improvements will be made over time. For the meantime, this should get a lot of people up and running. Enjoy.
