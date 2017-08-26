@@ -17,7 +17,7 @@ That being said, please use a **fresh** installation of Ubuntu 16.04 and higher 
 ## How to use
 
 #### Step 1: Download the Script
-`wget https://raw.githubusercontent.com/themattbook/ossninstaller/unstable/ossn_installer_ubuntu.sh`
+`wget https://raw.githubusercontent.com/themattbook/ossninstaller/master/ossn_installer_ubuntu.sh`
 
 #### Step 2: Make installer script executable
 `chmod +x ./ossn_installer_ubuntu.sh`
