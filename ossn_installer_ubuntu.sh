@@ -27,7 +27,9 @@ sudo apt install unzip -y
 # Install LAMP packages and create UFW Firewall rules
 sudo apt install apache2 -y
 sudo ufw allow in "Apache full"
-sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-curl php-zip -y
+sudo apt-get install php libapache2-mod-php php-mysql php-gd php-curl php-zip php-mbstring php-xml php-json -y
+#mcrypt is no more supported in php 7.3 >
+sudo apt-get install openssl
 sudo apt-get install mysql-server -y
 
 # Clear screen and update user
@@ -53,7 +55,13 @@ cd $APACHE
 wget https://raw.githubusercontent.com/themattbook/ossninstaller/master/000-default.conf
 
 # Enable mcrypt and mod_rewrite
-sudo phpenmod mcrypt
+sudo phpenmod curl
+sudo phpenmod xml
+sudo phpenmod gd
+sudo phpenmod zip
+sudo phpenmod mbstring
+sudo phpenmod json
+
 sudo a2enmod rewrite
 
 # Restart Apache for changes to take effect
